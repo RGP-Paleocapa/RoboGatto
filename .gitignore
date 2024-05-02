@@ -1,0 +1,5 @@
+# Ignore all files inside bin folders
+**/bin/*
+
+# But include the bin folders themselves
+!**/bin/
