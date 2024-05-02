@@ -1,6 +1,6 @@
-## Contributing
+<!-- ## Contributing
 
-<!-- We welcome contributions from everyone who is interested in improving and expanding Nevera. If you're excited to contribute, here's how you can get started. -->
+We welcome contributions from everyone who is interested in improving and expanding Nevera. If you're excited to contribute, here's how you can get started. -->
 
 ### How to Contribute
 
@@ -65,12 +65,14 @@
     - You’ll see a Compare & pull request button for your recently pushed branches.
     - Click it, review the changes, and then submit your pull request with a description of your changes.
 
+
 8. **Keep your fork up to date**:
     ```bash
-    git pull upstream main
+    git fetch upstream
+    git checkout main
+    git merge upstream/main
     git push origin main
     ```
-
 
 ### Additional Guidelines
 
@@ -78,7 +80,7 @@
 
 - **Licenses and Copyrights**: By contributing, you agree that your contributions will be licensed under the same Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
 
-<!-- We look forward to your contributions, and thank you for your interest in helping develop Nevera! -->
+<!-- We look forward to your contributions, and thank you for your interest in helping develop nevera! -->
 
 <!-- ### Recognition and Credits
 
