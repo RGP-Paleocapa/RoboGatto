@@ -1,5 +1,5 @@
-# Ignore all files inside bin folders
-**/bin/*
+/target
+/.vscode
+dependency-reduced-pom.xml
 
-# But include the bin folders themselves
-!**/bin/
+/src/test
