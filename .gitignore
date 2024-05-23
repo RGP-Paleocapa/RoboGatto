@@ -1,5 +1,11 @@
+# Ignore target directory (build output)
 /target
+
+# Ignore VSCode configuration files
 /.vscode
+
+# Ignore dependency reduced POM file created by Maven Shade Plugin
 dependency-reduced-pom.xml
 
+# Ignore test directory under src
 /src/test
